@@ -101,10 +101,7 @@ const Home = () => {
       <Row title={"Now Playing"} arr={nowPlayingMovies} />
       <Row title={"Upcoming"} arr={upcomingMovies} />
       <Row title={"Top Rated"} arr={topRatedMovies} />
-      <Row title={"Dramas"} arr={popularMovies} />
-      <Row title={"Only on Netflix"} arr={nowPlayingMovies} />
-      <Row title={"New Releases"} arr={upcomingMovies} />
-      <Row title={"Released in the Past Year"} arr={topRatedMovies} />
+      <Row title={"Only on Netflix"} arr={popularMovies} />
 
       <div className='genreBox'>
         {allGenre.map((item, index) => (
